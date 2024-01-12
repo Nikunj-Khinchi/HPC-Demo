@@ -1,0 +1,3 @@
+g++ -Wall -std=c99 program.cpp -o program
+g++ -Wall -std=c99 -pg program.cpp -o program
+gprof program gmon.out > profile-data.txt
